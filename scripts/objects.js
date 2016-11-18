@@ -1,3 +1,5 @@
+var movies = [];
+
 var ep4 = {
   title: "Star Wars: A New Hope",
   releaseYear: 1977,
@@ -21,3 +23,8 @@ var ep7 = {
   releaseYear: 2015,
   director: "J.J. Abrams"
 }
+
+movies.push( ep4 );
+movies.push( ep5 );
+movies.push( ep6 );
+movies.push( ep7 );
